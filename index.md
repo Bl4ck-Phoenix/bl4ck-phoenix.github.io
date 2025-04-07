@@ -38,7 +38,3 @@ date: 2025-04-07
 ---
 <br>
 Thanks for stopping by! More posts coming soon.
-
-
-![Smile](https://i.pinimg.com/originals/6d/58/32/6d5832ce27eaa1e8850321f8ef7555c1.gif)
-

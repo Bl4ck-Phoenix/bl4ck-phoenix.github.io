@@ -13,28 +13,10 @@ baseurl: ""  # Leave empty for user/org site; use "/repo-name" for project site
 # ===============================
 
 markdown: kramdown
-
-# Use the Console theme via GitHub remote
-remote_theme: b2a3e8/jekyll-theme-console
+theme: null
 
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-remote-theme
-
-# ===============================
-# Collections & Content
-# ===============================
-
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Bl4ck Phoenix"
-
 # ===============================
 # Permalinks
 # ===============================
