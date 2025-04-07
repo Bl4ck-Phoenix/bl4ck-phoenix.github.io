@@ -1,4 +1,85 @@
-title: Black Phoenix 
-author: Just Phoenix
-description: Black reversing research
-theme: minima
+# ===============================
+# Site settings
+# ===============================
+
+title: "Bl4ck Phoenix Research"
+author: "Bl4ck Phoenix"
+description: "my blog description"
+url: "https://bl4ck-phoenix.github.io"  # Your GitHub Pages URL
+baseurl: ""  # Leave empty for user/org site; use "/repo-name" for project site
+
+# ===============================
+# Build settings
+# ===============================
+
+markdown: kramdown
+
+# Use the Console theme via GitHub remote
+remote_theme: b2a3e8/jekyll-theme-console
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# ===============================
+# Collections & Content
+# ===============================
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Bl4ck Phoenix"
+
+# ===============================
+# Permalinks
+# ===============================
+
+permalink: /:year/:month/:day/:title/
+# Example: /2025/04/07/my-post-title/
+
+# ===============================
+# Social media
+# ===============================
+
+twitter_username: _BlxckPhoenix_
+github_username: Bl4ck-Phoenix
+
+# Footer links (HTML allowed)
+footer: 'reach me on <a href="https://twitter.com/_BlxckPhoenix_">twitter</a>, <a href="https://github.com/Bl4ck-Phoenix">github</a>'
+
+# ===============================
+# Console Theme Options
+# ===============================
+
+header_pages:
+  - index.md
+  - about.md
+
+style: dark  # Options: dark (default), light, hacker
+listen_for_clients_preferred_style: false  # true = match user's system preference
+
+# ===============================
+# Exclude from build
+# ===============================
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - LICENSE
+  - .github
+  - .obsidian
+  - .gitignore
+
+# ===============================
+# Future & Draft Posts
+# ===============================
+
+future: true         # Show posts scheduled in the future
+unpublished: false   # Exclude posts with `published: false`
