@@ -58,6 +58,7 @@ exclude:
   - .github
   - .obsidian
   - .gitignore
+  - _site
 
 # ===============================
 # Future & Draft Posts

@@ -17,6 +17,16 @@ date: 2025-04-07
 
 ---
 
+## ⚔️ Anti-Tamper Posts
+
+{% for post in site.posts %}
+  {% if post.category == "tamper" %}
+- [ {{ post.date | date: "%Y-%m-%d" }} ] : [{{ post.title }}]({{ post.url }})
+  {% endif %}
+{% endfor %}
+
+---
+
 ## ☣️ Malware Posts
 
 {%- assign ac_posts = site.posts | where: "category", "malware" -%}
@@ -36,5 +46,16 @@ date: 2025-04-07
 {% endfor %}
 
 ---
+
+## 👹 Win Internal Posts
+
+{% for post in site.posts %}
+  {% if post.category == "win" %}
+- [ {{ post.date | date: "%Y-%m-%d" }} ] : [{{ post.title }}]({{ post.url }})
+  {% endif %}
+{% endfor %}
+
+---
+
 <br>
 Thanks for stopping by! More posts coming soon.
