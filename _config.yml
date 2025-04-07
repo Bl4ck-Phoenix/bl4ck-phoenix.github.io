@@ -4,7 +4,7 @@
 
 title: "Bl4ck Phoenix Research"
 author: "Bl4ck Phoenix"
-description: "my blog description"
+description: "Bl4ck Phoenix reversing, CTFs, Malwares, Bypass and more ... "
 url: "https://bl4ck-phoenix.github.io"  # Your GitHub Pages URL
 baseurl: ""  # Leave empty for user/org site; use "/repo-name" for project site
 
@@ -22,7 +22,6 @@ plugins:
 # ===============================
 
 permalink: /:year/:month/:day/:title/
-# Example: /2025/04/07/my-post-title/
 
 # ===============================
 # Social media
@@ -43,7 +42,7 @@ header_pages:
   - about.md
 
 style: dark  # Options: dark (default), light, hacker
-listen_for_clients_preferred_style: false  # true = match user's system preference
+listen_for_clients_preferred_style: true  # true = match user's system preference
 
 # ===============================
 # Exclude from build
